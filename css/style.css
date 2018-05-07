@@ -1,0 +1,512 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background: rgb(229, 229, 229);
+	z-index: 300;
+	height: 100%;
+	width: 1600px;
+	margin: 0px auto;
+}
+
+.h1Hide{
+   text-indent: -9999px;
+}
+
+header{
+	background: url(../image/Bg.png) center;
+	max-width: 1600px;
+	padding: 25px 25px;
+}
+
+.main{
+	height: 100%;
+	min-height: 500px;
+	max-width: 1600px;
+	margin: 0px auto;
+	background: url(../image/pattern.png) center repeat;
+	z-index: 100;
+  
+}
+nav{
+	display: inline-block;
+}
+.headIcons{
+	display: inline-block;
+	float: right;
+}
+
+h2 {
+  font-size: 36px;
+  font-family: "yeseva-one";
+  color: rgb(204, 153, 0);
+  line-height: 0.667;
+}
+
+.whiteH2{
+  color: rgb(255, 255, 255);
+}
+
+.wrapperHead{
+	width: 80%;
+	margin: 16px auto -8px auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.wrapperContent{
+	width: 75%;
+	margin: auto;
+	padding: 50px 0px;
+	display: flex;
+	flex-wrap: wrap-reverse;
+	justify-content: center;
+	align-items: center;
+}
+
+.content{
+	padding: 0px 40px;
+	min-width: 430px;
+	align-content: center;
+	flex-basis: 50%;
+	text-align: center;
+	box-sizing: border-box;
+	
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+nav li{
+	display: inline-block;
+	margin: 0 17px;
+}
+.headIcon{
+	font-size: 21px;
+	margin: 0 17px;
+  	color: rgb(218, 179, 62);
+  	line-height: 1.2;
+}
+
+nav li a:hover{
+	padding-top: 45px;
+	border-top: 3px solid white;
+}
+
+.mainText{
+	margin: 0px auto 100px auto;
+	align-content: center;
+	text-align: center;
+}
+.headHr{
+	margin-top: 35px;
+}
+
+h2+hr{
+    height:24px;
+    width: 247px;
+    border: none;
+    margin: 25px auto;
+	background: url(../image/hr2.png) no-repeat top center;
+}
+
+h1+hr{
+    height:43px;
+    width: 232px;
+    border: none;
+    margin: 15px auto;
+	background: url(../image/hr1.png) no-repeat top center;
+}
+
+h3+hr{
+    height:24px;
+    width: 247px;
+    border: none;
+    margin: 15px auto;
+	background: url(../image/hr3.png) no-repeat top center;
+}
+
+h4+hr{
+	border: 0.5px solid rgb(187, 143, 34);
+	margin: 10px auto;
+}
+
+.hrWhite{
+	background: url(../image/hr3.png) no-repeat top center;
+}
+
+.headerButton {
+	margin: 0px 12px;
+	height: 55px;
+	width: 230px;
+	color: white;
+	border: 1px solid rgb(0, 0, 0);
+	background-color: rgba(0, 0, 0, 0.702);
+	opacity: 0.8;
+	outline:none;
+}
+
+.headerButton:hover{
+	border: 1px solid rgb(255, 255, 255);
+  	background-color: rgba(255, 255, 255, 0.278);
+  	opacity: 0.702;
+}
+
+.img{
+	padding: 0px;
+	width: 100%;
+}
+
+article{
+	max-height: 156px;
+	max-width: 450px;
+	margin: auto;
+	overflow: hidden;
+}
+.oneImageInLine{
+	padding-top: 60px;
+	margin: auto;
+	width: 40%;
+	padding-left: 60px;
+}
+
+
+
+.threeImageInLine{
+	border-radius: 50%;
+	border: 4px solid rgba(120, 120, 120, 0.3);
+	width: 22%; 
+	margin: 60px 10px 15px 10px; 
+}
+
+.ingredient{
+	padding-top: 50px; 
+	padding-bottom: 43px;
+	width: 100%;
+	background: url(../image/ingredientBG.png) center no-repeat;
+	z-index: 50;
+}
+
+.blackBack {
+	width: 460px;
+	height: 438px;
+	padding: 80px 43px 50px 43px;
+	color: white;
+	/*border: 0.06px solid rgb(251, 247, 192);*/
+	background-color: rgba(0, 0, 0, 0.671);
+}
+
+.paragraphMenu{
+	width: 450px;
+	text-align: left;
+	margin-top: 23px;
+	margin-left: 35px;
+}
+
+.price{
+	float: right;
+}
+
+.wrapMenu{
+	padding-top: 100px;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	flex-direction: column;
+	max-height: 1000px;
+	align-content: center;
+}
+
+@media screen and (max-width: 950px){
+	.wrapMenu{
+		align-items: center;
+		text-align: center;
+		max-height: 100%;
+	}
+}
+.menu{
+	margin-top: 10px;
+	width: 50%;
+	margin-bottom: 60px;
+}
+
+.review{
+	padding-top: 50px;
+	width: 100%;
+	background: url(../image/review.png) center no-repeat;
+	z-index: 50;
+}
+
+.blackBackReview {
+	width: 670px;
+	height: 430px;
+	padding: 80px 0px 50px 0px;
+	color: white;
+	/*border: 0.06px solid rgb(251, 247, 192);*/
+	background-color: rgba(0, 0, 0, 0.671);
+}
+
+.contentReview{
+	padding-bottom: 50px;
+	width: 800px;
+	flex-basis: 60%;
+}
+
+.relative{
+	position: relative;
+	right: 10px;
+}
+
+.img2Pict{
+	padding: 0 10px;
+	width: 45%;
+}
+
+.rightFood{
+	min-width: 450px;
+	width: 500px;
+	padding: 30px 5px 10px 5px;
+}
+
+.twoPictInColBottom{
+	padding-top: 70px;
+}
+.bottomArticle{
+	padding-bottom: 10px;
+}
+label{
+	width: 150px;
+}
+
+input,select{
+	border-radius: 0px;
+	margin: 5px auto 25px;
+	padding-left: 7px; 
+	width: 90%;
+  	height: 30px;
+	outline:none;
+	border: 1px solid rgb(200, 198, 198);
+  	background-color: rgba(255, 255, 255, 0.4);
+}
+select{
+	/*-webkit-appearance: none;
+	-moz-appearance: none;
+	-o-appearance: none;
+	appearance: none;*/
+	color: rgb(124, 124, 124);
+}
+input:focus {
+	color:red:;
+	border: 1px solid rgb(200, 159, 45);
+}
+select:focus {
+	color:red:;
+	border: 1px solid rgb(200, 159, 45);
+}
+
+.formWrape{
+	width: 80%;
+	padding-left: 20px;
+	padding-bottom: 10px;
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: space-around;
+}
+
+.formContent{
+	text-align: left;
+	flex-basis: 50%;
+	box-sizing: border-box;
+}
+label{
+	text-align: left;
+}
+
+input[type="data"]::-webkit-calendar-picker-indicator {
+  background: url(../image/calendar.png) no-repeat center;
+}
+input{
+	width: 210px;
+}
+select{
+	width: 219px;
+	height: 32px;
+	-webkit-appearance: none; 
+}
+
+.submitButton{
+	width: 85%;
+  	height: 35px;
+	color: white;
+	background-color: rgba(200, 159, 45, 0.98);
+}
+
+footer{
+	padding: 25px 25px;
+ 	background-color: rgb(25, 25, 25);
+}
+
+.wrapperFoot{
+	width: 75%;
+	margin: auto;
+	padding: 35px 0px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	
+}
+
+.contentFooter{
+	color: white;
+	padding: 0px 0px;
+	min-width: 350px;
+	align-content: center;
+	flex-basis: 33%;
+	text-align: center;
+	box-sizing: border-box;
+}
+
+.footerImg{
+	margin-top: 45px;
+}
+
+.menu:nth-of-type(n+5){
+	display: none;
+}
+
+
+@font-face {
+    font-family: Gentium-Basic;
+    src: url(../font/Gentium-Basic/GenBasB.ttf);
+   /* src: url(../font/Gentium-Basic/GenBkBasB.ttf);*/
+}
+@font-face {
+    font-family: lato; 
+    src: url(../font/lato/Lato-Medium.ttf);
+}
+
+@font-face {
+    font-family: open-sans;
+    src: url(../font/open-sans/OpenSans-Semibold.ttf);
+    font-weight: bold;
+	font-style: normal;
+}
+@font-face {
+    font-family: open-sans;
+    src: url(../font/open-sans/OpenSans-Regular.ttf);
+    font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+    font-family: yeseva-one; 
+    src: url(../font/yeseva-one/YesevaOne-Regular_v2.otf);
+}
+
+
+.mainText h1 {
+  font-size: 90px;
+  font-family: "yeseva-one";
+  color: rgba(255, 255, 255, 0.922);
+  line-height: 1.2;
+  text-shadow: 0px 1px 2px rgba(1, 1, 1, 0.64);
+}
+
+.logo{
+  font-size: 34px;
+  font-family: "yeseva-one", serif;
+  color: rgb(209, 211, 212);
+  line-height: 1.2;
+  text-align: center;
+}
+
+nav li a{
+	font-size: 21px;
+	font-family: "Gentium-Basic", serif;
+	color: rgb(209, 211, 212);
+	font-weight: bold;
+	line-height: 1.2;
+}
+
+.headerButton{
+  font-size: 18px;
+  font-family: "Lato", serif;
+  color: rgb(209, 211, 212);
+  line-height: 1.2;
+}
+
+
+article {
+  font-size: 16px;
+  font-family: "Lato", serif;
+  color: rgb(76, 76, 76);
+  line-height: 1.5;
+}
+
+.whiteArticle{
+  color: rgb(255, 255, 255);
+}
+
+
+h4 {
+  font-size: 21px;
+  font-family: "yeseva-one", serif;
+  color: rgb(200, 159, 45);
+  line-height: 1.143;
+  
+}
+
+.articleInReview {
+	max-width: 999px;
+	width: 600px;
+	max-height: 500px;
+ 	font-size: 25px;
+  	font-family: "Gentium-Basic", serif;
+  	color: rgb(221, 224, 223);
+  	font-weight: bold;
+ 	line-height: 1.8;
+}
+
+label {
+  font-size: 14px;
+  font-family: "open-sans", serif;
+  color: rgb(201, 161, 49);
+  font-weight: bold;
+  line-height: 1.2;
+ 
+}
+
+.submitButton{
+  font-size: 16px;
+  font-family: "open-sans", serif;
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  text-align: center;
+}
+
+h3 {
+  font-size: 21px;
+  font-family: "yeseva-one", serif;
+  color: rgb(254, 254, 254);
+  line-height: 1.143;
+}
+
+.footerArticle {
+	max-height: 300px;
+  font-size: 16px;
+  font-family: "open-sans";
+  color: rgb(255, 255, 255);
+  line-height: 1.5;
+}
+
+
